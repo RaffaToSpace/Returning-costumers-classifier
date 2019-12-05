@@ -1,6 +1,6 @@
 # Predict audiobooks returning customers
 
-I am building a model that analysises data from customers of an audiobook app to classify them as returning or not, in a boolean way. By "returning" I mean returning customers, i.e. if they will go back to using the app to purchase more products.
+I have built a model that analysises data from customers of an audiobook app to classify them as returning or not, in a boolean way. By "returning" I mean returning customers, i.e. if they will go back to using the app to purchase more products.
 Methods used:
 - NN
 - SVM (as comparison)

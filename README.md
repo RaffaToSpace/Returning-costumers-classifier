@@ -5,7 +5,7 @@ Methods used:
 - NN
 - SVM (as comparison)
 
-The data are imported from an attached csv file, and is tables as follows:
+The data are imported from an attached csv file, and is tabled as follows:
 
 | customer id | average minutes spent per book | total minutes spent on app  |average price of book   |total spent on app   |has left reviews?|review score|completion fraction| minutes listened |number of support requests|Last visited time minus purchase date| Target (dependent variable)|
 |---------------|-------|---|---|---|---|---|---|---|---|---|---|

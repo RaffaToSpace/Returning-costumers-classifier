@@ -36,3 +36,24 @@ The data are imported from an attached csv file, and is tabled as follows:
 - testing of the model;
 
 This work is based on an exercise from https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/
+
+## Conclusions
+The SVM has performs well and has the following outcomes:
+
+SVM Accuracy: 0.8994  
+Test set Jaccard similarity score:  0.8994  
+Test set F1 score: 0.8991 
+
+The feature coefficient plots shows how some features, such as the ones regarding minutes or money spent on the app, have a moderate impact on the predicted outcome, whereas the completion of books is strongly inversely proportional to the outcome.
+
+![alt text](https://github.com/RaffaToSpace/Returning-costumers-classifier/blob/master/Feature%20coefficients.png "Feature coefficients of the SVM model")
+
+The NN has shown an accuracy on the test set of 0.8862.
+
+Further analysis could be performed by using a random forest predictor, as they generally perform well with dataset made of combinations of numerical and categorical variables.
+
+## How to use it
+Tu run the model, simply download the repository files and store them in the same folder. Run BC_preprocessing first, as it will generate the preprocessed dataset for the models, then run either BC_NN or BC_SVM, depending on the model you'd like to use.
+
+## How to contribute
+Please drop a message if you'd like to comment on my work, I'm very much open to suggestions and feedback.
